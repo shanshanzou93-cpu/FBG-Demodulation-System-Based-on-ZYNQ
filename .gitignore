@@ -1,0 +1,36 @@
+# ---- Vivado 编译产物（可重新生成，不入库）----
+*.jou
+*.log
+*.str
+*.wdb
+*.pb
+*.hwdef
+.Xil/
+*.cache/
+*.runs/
+*.hw/
+*.sim/
+*.ip_user_files/
+*.gen/
+*_sim_netlist.v
+*_sim_netlist.vhdl
+
+# ---- Xilinx SDK / Vitis ----
+*.sdk/*/Debug/
+*.sdk/*/Release/
+*.sdk/*_hw_platform*/
+*.sdk/*_bsp*/
+*.sdk/RemoteSystemsTempFiles/
+*.sdk/webtalk/
+*.elf
+*.o
+*.d
+*.map
+*.elf.size
+
+# ---- 编辑器 / 系统 ----
+Thumbs.db
+.DS_Store
+desktop.ini
+*.bak
+*~
